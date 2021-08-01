@@ -11,3 +11,17 @@
 - swim
 - sing 
 - talk
+ 
+##how to run the application  
+Run `./run.sh` command to compile, run tests and run the application
+ - `curl http://localhost:8080/animalFamily/animals` - command to get all animals
+ - `curl http://localhost:8080/animalFamily/animals/walk/count` - command to get count of animals by activity
+ - `curl http://localhost:8080/animalFamily/animals/walk` - command to get animals by activity
+
+ 
+### ![design diagram](designDiagram.jpeg)
+
+### Few test responses
+- `activity.json`
+- `activityCount.json`
+- `totalAnimals`
